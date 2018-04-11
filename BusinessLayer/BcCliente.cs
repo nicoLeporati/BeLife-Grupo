@@ -10,7 +10,7 @@ namespace BusinessLayer
 {
     public class BcCliente
     {
-        /* Probar
+        /* 
          * Buscar un cliente por su rut, solo si el rut no es nulo y no esta en blanco
          */
         public Cliente BuscarPorRut(string rut = null)
