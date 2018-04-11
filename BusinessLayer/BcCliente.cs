@@ -5,14 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using DataLayer;
 using ModelEntities;
-//prueba
-
 
 namespace BusinessLayer
 {
     public class BcCliente
     {
-        /* 
+        /* Prueba GitHub
          * Buscar un cliente por su rut, solo si el rut no es nulo y no esta en blanco
          */
         public Cliente BuscarPorRut(string rut = null)
